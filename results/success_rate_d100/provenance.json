@@ -1,0 +1,84 @@
+{
+  "args": {
+    "mode": "sweep",
+    "dims": [
+      100
+    ],
+    "solvers": [
+      "alg_qrkm_cuda_batched",
+      "alg_qadmm_cuda_batched",
+      "alg_qaraf_cuda_batched",
+      "alg_qraf_cuda_batched",
+      "alg_qrwf_cuda_batched",
+      "alg_qwf_cuda_batched",
+      "alg_qpaf_cuda_batched"
+    ],
+    "trials": 100,
+    "passes": 1500,
+    "stop_err": 1e-05,
+    "power_iters": 50,
+    "base_seed": 20260812,
+    "timing_repeats": 0
+  },
+  "timing_repeats": 3,
+  "protocol": {
+    "grid_order": "decreasing n/d",
+    "early_stop": "terminate at the first ratio with zero successes; lower ratios are not evaluated and not written",
+    "concurrency": "serial (single process) -- timings are launch-latency sensitive"
+  },
+  "env": {
+    "timestamp": "2026-08-12T19:55:51",
+    "commit": "7cd1063",
+    "python": "3.10.19",
+    "torch": "2.5.1",
+    "cuda": "12.4",
+    "device_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "dtype": "float64",
+    "hyperparams": {
+      "QRKM": {
+        "eps": 1e-12,
+        "eps_beta": 1e-12
+      },
+      "QADMM": {
+        "rho": 0.6,
+        "damping": 1e-10
+      },
+      "QRAF": {
+        "beta": 5.0,
+        "step_size": 6.0
+      },
+      "QARAF": {
+        "eta": 2.1,
+        "beta": 0.8,
+        "beta_i": 5.0
+      },
+      "QWF": {
+        "eta_coeff": 0.2
+      },
+      "QRWF": {
+        "eta": 0.8
+      },
+      "QPAF": {
+        "gamma": 0.5,
+        "alpha": 2.0,
+        "eta": 2.5
+      },
+      "_protocol": {
+        "power_iters": 50,
+        "stop_err": 1e-05,
+        "epoch_budget": 1500,
+        "image_epoch_budget": 300,
+        "base_seed": 20260812
+      },
+      "_inactive_init_params": {
+        "QRAF": {
+          "|S|": "floor(3n/13)",
+          "gamma": 0.5
+        },
+        "QPAF": {
+          "gamma": 0.5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+solver_name,d,nd_rate,n,trials,successes,success_rate,mean_steps,std_steps,mean_time_s,std_time_s,timing_repeats,min_time_s,max_time_s,mean_dist_sign,median_dist_sign,max_dist_sign,base_seed,power_iters,passes,stop_err,shared_init
+alg_qraf_cuda_batched,64,8.0,512,100,100,1.0,394.08,31.258996280828477,0.4538048210006672,0.2508306992357044,3.0,0.45197924599982797,0.8873406719998457,9.876960593593957e-06,9.87420838232898e-06,9.991327348078365e-06,20260812,50,1500,1e-05,1

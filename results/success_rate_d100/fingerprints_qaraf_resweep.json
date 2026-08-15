@@ -1,0 +1,273 @@
+{
+  "env": {
+    "timestamp": "2026-08-14T11:37:54",
+    "commit": "7cd1063",
+    "python": "3.10.19",
+    "torch": "2.5.1",
+    "cuda": "12.4",
+    "device_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "dtype": "float64",
+    "hyperparams": {
+      "QRKM": {
+        "eps": 1e-12,
+        "eps_beta": 1e-12
+      },
+      "QADMM": {
+        "rho": 0.6,
+        "damping": 1e-10
+      },
+      "QRAF": {
+        "beta": 5.0,
+        "step_size": 6.0
+      },
+      "QARAF": {
+        "eta": 1.6,
+        "beta": 0.8,
+        "beta_i": 5.0
+      },
+      "QWF": {
+        "eta_coeff": 0.2
+      },
+      "QRWF": {
+        "eta": 0.8
+      },
+      "QPAF": {
+        "gamma": 0.5,
+        "alpha": 2.0,
+        "eta": 2.5
+      },
+      "_protocol": {
+        "power_iters": 50,
+        "stop_err": 1e-05,
+        "epoch_budget": 1500,
+        "image_epoch_budget": 300,
+        "base_seed": 20260812
+      },
+      "_inactive_init_params": {
+        "QRAF": {
+          "|S|": "floor(3n/13)",
+          "gamma": 0.5
+        },
+        "QPAF": {
+          "gamma": 0.5
+        },
+        "QRWF": {
+          "alpha_l": 1.0,
+          "alpha_u": 5.0
+        }
+      }
+    }
+  },
+  "records": {
+    "alg_qaraf_cuda_batched": [
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 12.0,
+        "n": 1200,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 20360815,
+        "A": "4f6f013c44e1dd03",
+        "x_true": "851bc016b2640403",
+        "y": "2bb46d68ebefff05",
+        "z0": "edcd6e2652f5bb57"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 11.0,
+        "n": 1100,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 20460818,
+        "A": "ac533a995e44812a",
+        "x_true": "f442bc02c084331f",
+        "y": "723ca79c19cb8b0d",
+        "z0": "0defc79c58e57969"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 10.0,
+        "n": 1000,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 20560821,
+        "A": "06d5015cd30d91be",
+        "x_true": "e81427a76c657203",
+        "y": "7847946f65ea09df",
+        "z0": "5c9816b5f0fe89b4"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 9.0,
+        "n": 900,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 20660824,
+        "A": "3209096b114995f2",
+        "x_true": "f9fca4913a37b4d3",
+        "y": "b229ac01bca4bde0",
+        "z0": "984c191f400e2081"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 8.0,
+        "n": 800,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 20760827,
+        "A": "95e5d6f639d2c2f2",
+        "x_true": "f0be8cce55ed95b3",
+        "y": "c67aa419fd045274",
+        "z0": "7b0073447f40ad19"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 7.0,
+        "n": 700,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 20860830,
+        "A": "6bc42b8850337a9a",
+        "x_true": "076f63b5797fd639",
+        "y": "ce92424f6088d730",
+        "z0": "ef3f6877f26cba2f"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 6.8,
+        "n": 680,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 20960833,
+        "A": "28f930930fd5f8c5",
+        "x_true": "9cd01edaa7bc761f",
+        "y": "931b58c451900bbd",
+        "z0": "2e7ac7a9b38b8a02"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 6.6,
+        "n": 660,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21060836,
+        "A": "05e4a8f4ad03bdd4",
+        "x_true": "3f567fffe57a5624",
+        "y": "a3721edf93eb00d1",
+        "z0": "27a1072f033aae97"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 6.4,
+        "n": 640,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21160839,
+        "A": "85efe222fcbcc13d",
+        "x_true": "5663eb2a8a6b9cae",
+        "y": "3ea9e4b73ede0d95",
+        "z0": "20c36fa3a8b9f3a9"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 6.2,
+        "n": 620,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21260842,
+        "A": "506fc64f8dd48fbe",
+        "x_true": "4bdd4608cf8a8f05",
+        "y": "ca397aea2e5cbcdb",
+        "z0": "6de3aa340f9e4100"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 6.0,
+        "n": 600,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21360845,
+        "A": "024fd4b6c278dac9",
+        "x_true": "2a0f177a65691f3f",
+        "y": "301f141edf35f482",
+        "z0": "e0351a14d116f525"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 5.8,
+        "n": 580,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21460848,
+        "A": "85855944a5ec880d",
+        "x_true": "3071e972ab0b3cb0",
+        "y": "f1f30e42fd16d65f",
+        "z0": "3175f569b782665c"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 5.6,
+        "n": 560,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21560851,
+        "A": "569f9be7619a9f61",
+        "x_true": "6d95614ac38202da",
+        "y": "fb91a74fec28ac34",
+        "z0": "d0714973474cb70d"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 5.4,
+        "n": 540,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21660854,
+        "A": "13169e3d8151439a",
+        "x_true": "929ebc8ea1beef66",
+        "y": "7702ee1ce6bc0d58",
+        "z0": "b0ef1804bb63d9db"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 5.2,
+        "n": 520,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21760857,
+        "A": "3def58afdf7f5a8b",
+        "x_true": "f7f6961e0c9e8d99",
+        "y": "b6ebd8b604b81850",
+        "z0": "a5e2973cdcb9e57e"
+      },
+      {
+        "solver_name": "alg_qaraf_cuda_batched",
+        "d": 100,
+        "nd_rate": 5.0,
+        "n": 500,
+        "batch_index": 0,
+        "batch_size": 100,
+        "seed_offset": 21860860,
+        "A": "8533e48536c60d45",
+        "x_true": "0ae0751a8f782047",
+        "y": "e48aacdd60827ef9",
+        "z0": "c590305bece6a4bc"
+      }
+    ]
+  }
+}
